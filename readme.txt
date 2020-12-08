@@ -3,7 +3,8 @@ China Meteorological Satellite FY4A NatureColor ,layer 0-7
 
 FY4A0-6.7z
 FY4A7.7z
- 
+terrain.7z : Stereoscopic cloud map layer 
+
 layer 0	156543.0339 km
 layer 1	78271.51696 km
 layer 2	39135.75848 km
@@ -33,3 +34,9 @@ var viewer = new Cesium.Viewer('cesiumContainer', {
 	sceneModePicker: true,
 	imageryProvider: FY4Amap
 	});
+var terrainProvider = new Cesium.CesiumTerrainProvider({ 
+	url: "terrain" ,
+	requestVertexNormals : true
+	}); 		
+	viewer.terrainExaggeration=20.0,
+	viewer.terrainProvider=terrainProvider;
