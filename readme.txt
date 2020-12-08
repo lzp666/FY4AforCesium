@@ -9,7 +9,7 @@ layer 1	78271.51696 km
 layer 2	39135.75848 km
 layer 3	19567.87924 km
 layer 4	9783.939621 km
-layer 5	4891.96981   km
+layer 5	4891.96981  km
 layer 6	2445.984905 km
 layer 7	1222.992453 km
 
